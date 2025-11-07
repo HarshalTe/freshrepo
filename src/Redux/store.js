@@ -7,6 +7,7 @@ import Loginslice from "./Loginslice"
 import Firstslice from "./Firstslice"
 import Postshowslice from "./Postshowslice"
 import crudslice from "./crudslice"
+import Freshslice from "./Freshslice"
 const store = configureStore({
   reducer: {
     counter: couterslice,
@@ -16,7 +17,8 @@ const store = configureStore({
     login:Loginslice,
     first:Firstslice,
     postshow:Postshowslice,
-    crud:crudslice
+    crud:crudslice,
+    user:Freshslice
   },
 });
 
