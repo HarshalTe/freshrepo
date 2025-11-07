@@ -1,26 +1,36 @@
-import { useSelector,useDispatch} from "react-redux";
-import Freshslice from "././Redux/Freshslice"
-import{userdata1} from "././Redux/userdata1"
+import { useSelector, useDispatch } from "react-redux";
+import { userdata1 } from './Redux/Freshslice';
 import { useEffect, useState } from "react";
-const Fresh = ()=>{ 
-    const {userdata} = useSelector((state)=>state.user);
-    const [list,setlist] = useState(userdata);
-    const dispatch = useDispatch();
-    useEffect(()=>{
-      dispatch(userdata1())
-    },[])
-    return(
-        <div>
 
-          {list.map((ech,i)=>{
-            return(
-                <div>
-                     <h1>{ech.name}</h1>
+const Fresh = () => {
+  const { userdata } = useSelector((state) => state.user);
+  const [list, setList] = useState([]);
+  const dispatch = useDispatch();
 
-                </div>
-            );
-          })}
+  useEffect(() => {
+    dispatch(userdata1());
+  }, [dispatch]);
 
-        </div>
-    );
-}
+  useEffect(() => {
+    setList(userdata);
+  }, [userdata]);
+
+  return (
+    <div>
+      <select>
+
+        {list.map((ech, i) => {
+          return (
+            <option key={i}>
+              <h1>{ech.name}</h1>
+            </option>
+          );
+        })}
+
+      </select>
+
+    </div>
+  );
+};
+
+export default Fresh;
