@@ -5,6 +5,7 @@ import DynamicForm from "./DynamicForm";
 import H1 from "./H1";
 import H2 from './H2'
 import Fresh from "./Fresh";
+import Start1 from "./Start1";
 const Hmain = () => {
   return (
     <>
@@ -14,7 +15,9 @@ const Hmain = () => {
       {/* <Dropdown1/> */}
       {/* <DynamicForm/> */}
       {/* <Da /> */}
-     <Fresh/>
+      {/* <Fresh/> */}
+
+      <Start1 />
 
 
 
