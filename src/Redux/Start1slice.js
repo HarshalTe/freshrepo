@@ -77,7 +77,7 @@ const Start1slice = createSlice({
                 },
                     builder.addCase(remove.fulfilled, (state, action) => {
                         state.loading = false;
-                        // Remove deleted user from local state
+                     
                         state.userdata = state.userdata.filter((user) => user.id !== action.payload.id);
                     },
                         builder.addCase(remove.rejected, (state,action) => {
