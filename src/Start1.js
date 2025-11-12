@@ -14,6 +14,7 @@ const Start1 = () => {
     const submit = (e)=>{
       e.preventDefault();
        dis(postdata(info));
+       setinfo({ first_name: "", last_name: "", number:"" })
     }
     const del =  (id)=>{
       dis(remove(id))
