@@ -56,6 +56,7 @@ const Newstartslice = createSlice({
         loading: false,
         userlistdata: [],
         error: null,
+        post:""
     },
     reducers: {},
     extraReducers: (builder) => {
