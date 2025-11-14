@@ -57,6 +57,7 @@ const Newstartslice = createSlice({
         userlistdata: [],
         error: null,
 
+
         a:"",
         b:"",
         c:"",
@@ -65,7 +66,9 @@ const Newstartslice = createSlice({
 
         one:"",
         two:"",
-        three:""
+        three:"",
+
+      harshal:"",
 
     },
     reducers: {},
