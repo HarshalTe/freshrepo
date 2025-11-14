@@ -58,6 +58,10 @@ const Newstartslice = createSlice({
         error: null,
         image1:"",
         image2:"",
+        post1:"",
+         post2:"",
+         post3:"",
+         post4:"",
     },
     reducers: {},
     extraReducers: (builder) => {
