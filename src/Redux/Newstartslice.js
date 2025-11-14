@@ -56,7 +56,9 @@ const Newstartslice = createSlice({
         loading: false,
         userlistdata: [],
         error: null,
-
+        a:"",
+        b:"",
+        c:"",
      
 
     },
