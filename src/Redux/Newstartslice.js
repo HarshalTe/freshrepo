@@ -56,6 +56,8 @@ const Newstartslice = createSlice({
         loading: false,
         userlistdata: [],
         error: null,
+        image1:"",
+        image2:"",
     },
     reducers: {},
     extraReducers: (builder) => {
