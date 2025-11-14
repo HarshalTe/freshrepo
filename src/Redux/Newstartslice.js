@@ -56,10 +56,16 @@ const Newstartslice = createSlice({
         loading: false,
         userlistdata: [],
         error: null,
+
         a:"",
         b:"",
         c:"",
      
+
+
+        one:"",
+        two:"",
+        three:""
 
     },
     reducers: {},
