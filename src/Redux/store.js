@@ -9,6 +9,7 @@ import Postshowslice from "./Postshowslice"
 import crudslice from "./crudslice"
 import Freshslice from "./Freshslice"
 import Start1slice from "./Start1slice"
+import Newstartslice from "./Newstartslice"
 const store = configureStore({
   reducer: {
     counter: couterslice,
@@ -20,8 +21,13 @@ const store = configureStore({
     postshow:Postshowslice,
     crud:crudslice,
     user:Freshslice,
-    ss:Start1slice
+    ss:Start1slice,
+    crud2:Newstartslice
   },
 });
 
 export default store;
+
+
+
+// https://67ab452f5853dfff53d6c917.mockapi.io/app/user
