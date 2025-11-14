@@ -56,14 +56,9 @@ const Newstartslice = createSlice({
         loading: false,
         userlistdata: [],
         error: null,
-<<<<<<< HEAD
-        a:"",
-        b:""
-=======
-        five:"",
-        six:"",
-        seven:""
->>>>>>> fresh1
+
+     
+
     },
     reducers: {},
     extraReducers: (builder) => {
