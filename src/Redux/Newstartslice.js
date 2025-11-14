@@ -57,7 +57,8 @@ const Newstartslice = createSlice({
         userlistdata: [],
         error: null,
         five:"",
-        six:""
+        six:"",
+        seven:""
     },
     reducers: {},
     extraReducers: (builder) => {
