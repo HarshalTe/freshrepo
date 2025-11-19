@@ -26,7 +26,7 @@ export const deletedata = createAsyncThunk('deletedata', async (id) => {
 
 export const show = createAsyncThunk('show', async () => {
     try {
-        const res = await fetch('https://67ab452f5853dfff53d6c917.mockapi.io/app/user');
+        const res = await fetch('');
         const final = await res.json();
         return final;
     } catch (error) {
@@ -56,16 +56,6 @@ const Newstartslice = createSlice({
         loading: false,
         userlistdata: [],
         error: null,
-
-        a:"",
-        b:"",
-        c:"",
-     
-
-
-        one:"",
-        two:"",
-        three:""
 
     },
     reducers: {},
@@ -114,7 +104,6 @@ const Newstartslice = createSlice({
             .addCase(su.fulfilled, (state, action) => {
                 state.loading = false;
 
-                // 🟢 Replace only the updated user
                 state.userlistdata = state.userlistdata.map((ech) =>
                     ech.id === action.payload.id ? action.payload : ech
                 );

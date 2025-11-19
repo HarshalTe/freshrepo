@@ -7,6 +7,11 @@ import H2 from './H2'
 import Fresh from "./Fresh";
 import Start1 from "./Start1";
 import Newstart1 from "./Newstart1"
+import Re from "./Re"
+import S from "./S"
+import Ss from "./Ss"
+import Fetch from "./Fetch";
+
 const Hmain = () => {
   return (
     <>
@@ -19,8 +24,11 @@ const Hmain = () => {
       {/* <Fresh/> */}
 
       {/* <Start1 /> */}
-      <Newstart1/>
-
+      {/* <Newstart1/> */}
+      {/* <Re/> */}
+      {/* <S/> */}
+      {/* <Ss/> */}
+      <Fetch/>
 
 
 
