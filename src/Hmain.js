@@ -11,7 +11,7 @@ import Re from "./Re"
 import S from "./S"
 import Ss from "./Ss"
 import Fetch from "./Fetch";
-
+import Mfetch from "./Mfetch"
 const Hmain = () => {
   return (
     <>
@@ -28,7 +28,8 @@ const Hmain = () => {
       {/* <Re/> */}
       {/* <S/> */}
       {/* <Ss/> */}
-      <Fetch/>
+      {/* <Fetch/> */}
+      <Mfetch/>
 
 
 
