@@ -12,6 +12,7 @@ import S from "./S"
 import Ss from "./Ss"
 import Fetch from "./Fetch";
 import Mfetch from "./Mfetch"
+import Complex from "./Complex"
 const Hmain = () => {
   return (
     <>
@@ -29,7 +30,8 @@ const Hmain = () => {
       {/* <S/> */}
       {/* <Ss/> */}
       {/* <Fetch/> */}
-      <Mfetch/>
+      {/* <Mfetch/> */}
+      <Complex/>
 
 
 
