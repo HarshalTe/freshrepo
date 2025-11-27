@@ -36,9 +36,9 @@ const Hmain = () => {
       {/* <Fetch/> */}
       {/* <Mfetch/> */}
       {/* <Complex/> */}
-      <Complexdropdown/>
+      {/* <Complexdropdown/> */}
       <br></br>
-      <Log1/>
+      {/* <Log1/> */}
 
 
 
