@@ -14,6 +14,9 @@ import Fetch from "./Fetch";
 import Mfetch from "./Mfetch"
 import Complex from "./Complex"
 import Complexdropdown from "./Complexdropdown";
+import Log1 from "./Log1";
+
+
 const Hmain = () => {
   return (
     <>
@@ -34,6 +37,8 @@ const Hmain = () => {
       {/* <Mfetch/> */}
       {/* <Complex/> */}
       <Complexdropdown/>
+      <br></br>
+      <Log1/>
 
 
 
