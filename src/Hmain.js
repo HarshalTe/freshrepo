@@ -16,6 +16,7 @@ import Complex from "./Complex"
 import Complexdropdown from "./Complexdropdown";
 import Log1 from "./Log1";
 import Complexdrop from "./Coplexdrop";
+import Nestedarray from "./Nestedarray";
 
 
 const Hmain = () => {
@@ -41,7 +42,8 @@ const Hmain = () => {
       <br></br>
       {/* <Log1/> */}
       <br></br>
-      <Complexdrop/>
+      {/* <Complexdrop/> */}
+      <Nestedarray/>
 
 
 
