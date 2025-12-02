@@ -32,7 +32,7 @@ const PP2 = ({ setshow, pass, id, list, setlist }) => {
 
       setlist(update);
 
-
+       setshow(false)
    }
    return (
       <div style={design}>

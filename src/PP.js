@@ -21,6 +21,12 @@ const PP = () => {
       setpass(e)
       setid(i);
    }
+   const del = (i) => {
+      setlist(list.filter((dd, di) => {
+         return di !== i
+      }))
+
+   }
    return (
       <div>
          <h1>CREATE DRPDOWN DATA</h1>
@@ -54,6 +60,8 @@ const PP = () => {
                      <h1>{e.role}</h1>
                      <br></br>
                      <button onClick={() => up(e, i)}>UPDATE</button>
+                     <br></br>
+                     <button onClick={() => del(i)}>DELETE</button>
                   </div>
                )
             })
