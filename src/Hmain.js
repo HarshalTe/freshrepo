@@ -19,6 +19,7 @@ import Complexdrop from "./Coplexdrop";
 import Nestedarray from "./Nestedarray";
 import  Qq from "./Qq"
 import Postput from "./Postput";
+import PP from "./PP";
 
 const Hmain = () => {
   return (
@@ -46,7 +47,8 @@ const Hmain = () => {
       {/* <Complexdrop/> */}
       {/* <Nestedarray/> */}
       {/* <Qq/> */}
-      <Postput/>
+      {/* <Postput/> */}
+      <PP/>
 
 
 
