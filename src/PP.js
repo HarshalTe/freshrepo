@@ -1,8 +1,10 @@
+
+
 import { useState } from "react";
 import PP2 from "./PP2";
 const PP = () => {
    const rd = ["frontend-devloper", "backend-devloper", "fullstack-devloper", "devops-engineer"]
-   const [userdata, setuserdata] = useState({ first: "", last: "", role: "" });
+   const [userdata, setuserdata] = useState({ first: "", last: "", role: "", });
    const [pass, setpass] = useState();
    const [list, setlist] = useState([])
    const [show, setshow] = useState(false);
@@ -35,7 +37,7 @@ const PP = () => {
          <br></br>
          <input type="text" placeholder="Last Name" value={userdata.last} name="last" onChange={change} />
          <br></br>
-         <select value={userdata.role} name="role" onChange={change}>
+         <select value={userdata.role} name="role" onChange={change}  >
             <option value="value">Select Role</option>
             {rd.map((ce, ci) => {
                return (
