@@ -22,9 +22,17 @@ const PP2 = ({ setshow, pass, id, list, setlist }) => {
    }
    const save = (e) => {
       e.preventDefault()
-      const update = [...list]
-      update[id] = updata;
-      setlist(update)
+      // const update = [...list]
+      // update[id] = updata;
+      // setlist(update)
+
+      const update = list.map((item, index) =>
+         index === id ? updata : item
+      );
+
+      setlist(update);
+
+
    }
    return (
       <div style={design}>
