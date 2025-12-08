@@ -51,7 +51,11 @@ const Hmain = () => {
       {/* <Postput/> */}
       {/* <PP/> */}
       <AutoRemoveDropdown/>
+<<<<<<< Updated upstream
       <h1>extra content</h1>
+=======
+      <h1>new extra content</h1>
+>>>>>>> Stashed changes
 
 
 
