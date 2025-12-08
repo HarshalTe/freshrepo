@@ -51,10 +51,7 @@ const Hmain = () => {
       {/* <Postput/> */}
       {/* <PP/> */}
       <AutoRemoveDropdown/>
-
-      <h1>extra content</h1>
-
-      <h1>new extra content</h1>
+    <h1>1236547895</h1>
 
 
 
