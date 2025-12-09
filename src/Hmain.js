@@ -21,6 +21,7 @@ import  Qq from "./Qq"
 import Postput from "./Postput";
 import PP from "./PP";
 import AutoRemoveDropdown from "./AutoRemoveDropdown";
+import Form1 from "./Form1";
 
 const Hmain = () => {
   return (
@@ -50,15 +51,10 @@ const Hmain = () => {
       {/* <Qq/> */}
       {/* <Postput/> */}
       {/* <PP/> */}
-      <AutoRemoveDropdown/>
+      {/* <AutoRemoveDropdown/> */}
+      <Form1/>
 
 
-      <h1>extra content</h1>
-      <h1>assda</h1>
-
-      <h1>new extra content</h1>
-
-    <h1>1236547895</h1>
 
 
 

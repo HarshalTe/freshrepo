@@ -55,11 +55,10 @@ const Newstartslice = createSlice({
     initialState: {
         loading: false,
         userlistdata: [],
-<<<<<<< HEAD
+
         error: null
-=======
-        error: null,
->>>>>>> cbeb3215a3a47fb6d9e4a87ab3c93add9d232ec9
+
+
 
     },
     reducers: {},

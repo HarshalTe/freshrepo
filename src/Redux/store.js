@@ -10,6 +10,7 @@ import crudslice from "./crudslice"
 import Freshslice from "./Freshslice"
 import Start1slice from "./Start1slice"
 import Newstartslice from "./Newstartslice"
+import Form1slice from "./Form1slice"
 const store = configureStore({
   reducer: {
     counter: couterslice,
@@ -22,7 +23,8 @@ const store = configureStore({
     crud:crudslice,
     user:Freshslice,
     ss:Start1slice,
-    crud2:Newstartslice
+    crud2:Newstartslice,
+    newuserdata:Form1slice
   },
 });
 
