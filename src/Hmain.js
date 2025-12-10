@@ -22,6 +22,7 @@ import Postput from "./Postput";
 import PP from "./PP";
 import AutoRemoveDropdown from "./AutoRemoveDropdown";
 import Form1 from "./Form1";
+import Arrayfield from "./Arrayfield";
 
 const Hmain = () => {
   return (
@@ -52,7 +53,8 @@ const Hmain = () => {
       {/* <Postput/> */}
       {/* <PP/> */}
       {/* <AutoRemoveDropdown/> */}
-      <Form1/>
+      {/* <Form1/> */}
+      <Arrayfield/>
 
 
 
